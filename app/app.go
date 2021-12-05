@@ -39,6 +39,7 @@ func Gerar() *cli.App {
 	return app
 }
 
+//buscar retorna o nome do servidor que o site está armazenado
 func buscarIps(c *cli.Context) {
 	host := c.String("host")
 
